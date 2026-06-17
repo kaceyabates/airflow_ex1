@@ -10,6 +10,3 @@ def run_query(input_dir):
     # Example query: print the number of rows for each symbol
     for f, df in zip(files, dfs):
         print(f"File: {f}, Rows: {len(df)}")
-
-    # You can add any custom logic here
-    # e.g., compute average close price, max volume, etc.
